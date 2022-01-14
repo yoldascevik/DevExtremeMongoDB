@@ -2,12 +2,17 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <Title>DevExtreme.AspNet.Data.MongoDB</Title>
+        <Title>DxDataGrid.MongoDB</Title>
         <Authors>Yoldaş Çevik</Authors>
-        <Description>MongoDB extension for DevExtreme AspNet DataSourceLoaderOptions</Description>
-        <PackageTags>DevExtreme, AspNet, MongoDB</PackageTags>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <FileVersion>1.0.0</FileVersion>
+        <Description>DxDataGrid MongoDB (MongoDriver) Support For .Net</Description>
+        <PackageTags>DevExtreme, DxDatagrid, AspNet, MongoDB</PackageTags>
+        <AssemblyVersion>0.1.0</AssemblyVersion>
+        <FileVersion>0.1.0</FileVersion>
+        <PackageVersion>0.1.0</PackageVersion>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageProjectUrl>https://github.com/yoldascevik/DevExtremeMongoDB</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/yoldascevik/DevExtremeMongoDB</RepositoryUrl>
+        <AssemblyName>DxDataGrid.MongoDB</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,6 +22,10 @@
       <PackageReference Include="MongoDB.Driver" Version="2.14.1" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
       <PackageReference Include="Serilog" Version="2.10.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENSE.md" Pack="true" PackagePath="" visible="false" />
     </ItemGroup>
 
 </Project>

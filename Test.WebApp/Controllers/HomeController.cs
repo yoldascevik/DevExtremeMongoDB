@@ -25,8 +25,8 @@ namespace Test.WebApp.Controllers
         public ActionResult Movies(DataSourceLoadOptions loadOptions)
         {
             var movieList = _movieCollection.Find(FilterDefinition<Movie>.Empty);
-            var res = MongoDataSourceLoader.Load(movieList, loadOptions);
-            var jsonResult = JsonConvert.SerializeObject(res);
+            var loadResult = MongoDataSourceLoader.Load(movieList, loadOptions);
+            var jsonResult = JsonConvert.SerializeObject(loadResult);
             
             return Content(jsonResult, "application/json");
         }

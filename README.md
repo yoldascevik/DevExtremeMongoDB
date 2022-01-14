@@ -14,7 +14,7 @@ public ActionResult Movies(DataSourceLoadOptions loadOptions)
      return Content(jsonResult, "application/json");  
 }
 ```
-> *This repository also contains a sample ASP .NET 5 MVC Project. (mongodb required)*
+> *This repository also contains a sample .NET 5 MVC Project. (mongodb required)*
 
 ### :white_check_mark: Supported Operations
 - [x] Sorting
