@@ -2,7 +2,7 @@
 
 **DxDatagrid MongoDB (MongoDriver) Support For .Net**
 
-### Sample Use
+### Sample Using
 ```csharp
 [HttpGet]  
 public ActionResult Movies(DataSourceLoadOptions loadOptions)  
@@ -15,6 +15,21 @@ public ActionResult Movies(DataSourceLoadOptions loadOptions)
 }
 ```
 > *This repository also contains a sample .NET 5 MVC Project. (mongodb required)*
+
+### Install
+
+You can include this library in your project with the Nuget package.
+
+Add the nuget package to your project using *Package Manager Console* or *Nuget Package Manager*.
+
+```powershell
+PM> Install-Package DxDataGrid.MongoDB
+```
+Or using .Net Cli
+
+```powershell
+> dotnet add package DxDataGrid.MongoDB
+```
 
 ### :white_check_mark: Supported Operations
 - [x] Sorting
