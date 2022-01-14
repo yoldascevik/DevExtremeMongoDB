@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="dx-viewport demo-container">
+    <div id="grid"></div>
+</div>
+
+@section Scripts {
+  <script>
+    $(() => {
+      $('#grid').dxDataGrid({
+        dataSource: DevExpress.data.AspNet.createStore({
+          key: 'Id',
+          loadUrl: `@Url.Action("Movies")`,
+        }),
+        showBorders: true,
+        remoteOperations: true,
+        filterRow: {
+          visible: true,
+        },
+        headerFilter: {
+          visible: true,
+        },
+        paging: {
+          pageSize: 5,
+        },
+        pager: {
+          visible: true,
+          showInfo: true,
+          showNavigationButtons: true
+        }
+      });
+    });
+  </script>
+}

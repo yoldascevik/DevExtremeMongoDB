@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevExtreme.AspNet.Data.MongoDB", "DevExtreme.AspNet.Data.MongoDB\DevExtreme.AspNet.Data.MongoDB.csproj", "{8A18D5C2-1B49-4987-ACCE-0D908F6831BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.WebApp", "Test.WebApp\Test.WebApp.csproj", "{3EE614A5-73B8-4B2B-A591-E3835FF5C037}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A18D5C2-1B49-4987-ACCE-0D908F6831BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A18D5C2-1B49-4987-ACCE-0D908F6831BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A18D5C2-1B49-4987-ACCE-0D908F6831BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A18D5C2-1B49-4987-ACCE-0D908F6831BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE614A5-73B8-4B2B-A591-E3835FF5C037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE614A5-73B8-4B2B-A591-E3835FF5C037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE614A5-73B8-4B2B-A591-E3835FF5C037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE614A5-73B8-4B2B-A591-E3835FF5C037}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

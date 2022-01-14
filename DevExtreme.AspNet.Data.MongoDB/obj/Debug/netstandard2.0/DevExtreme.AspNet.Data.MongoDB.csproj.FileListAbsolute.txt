@@ -1,0 +1,10 @@
+D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\bin\Debug\netstandard2.0\DevExtreme.AspNet.Data.MongoDB.deps.json
+D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\bin\Debug\netstandard2.0\DevExtreme.AspNet.Data.MongoDB.dll
+D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\bin\Debug\netstandard2.0\DevExtreme.AspNet.Data.MongoDB.pdb
+D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\obj\Debug\netstandard2.0\DevExtreme.AspNet.Data.MongoDB.csproj.AssemblyReference.cache
+D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\obj\Debug\netstandard2.0\DevExtreme.AspNet.Data.MongoDB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\obj\Debug\netstandard2.0\DevExtreme.AspNet.Data.MongoDB.AssemblyInfoInputs.cache
+D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\obj\Debug\netstandard2.0\DevExtreme.AspNet.Data.MongoDB.AssemblyInfo.cs
+D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\obj\Debug\netstandard2.0\DevExtreme.AspNet.Data.MongoDB.csproj.CoreCompileInputs.cache
+D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\obj\Debug\netstandard2.0\DevExtreme.AspNet.Data.MongoDB.dll
+D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\obj\Debug\netstandard2.0\DevExtreme.AspNet.Data.MongoDB.pdb

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = DevExtreme.AspNet.Data.MongoDB
+build_property.ProjectDir = D:\Projects\DevExtremeMongoDB\DevExtreme.AspNet.Data.MongoDB\
