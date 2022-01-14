@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\cevik\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\cevik\\.nuget\\packages"
-    ]
-  }
-}
