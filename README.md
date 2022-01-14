@@ -7,11 +7,11 @@
 [HttpGet]  
 public ActionResult Movies(DataSourceLoadOptions loadOptions)  
 {  
-    var movieList = _movieCollection.Find(FilterDefinition<Movie>.Empty); // native mongodb query  
-	var res = MongoDataSourceLoader.Load(movieList, loadOptions); // apply grid options   
-	var jsonResult = JsonConvert.SerializeObject(res); // create json response  
+     var movieList = _movieCollection.Find(FilterDefinition<Movie>.Empty); // native mongodb query  
+     var loadResult = MongoDataSourceLoader.Load(movieList, loadOptions); // apply grid options   
+     var jsonResult = JsonConvert.SerializeObject(loadResult); // create json response  
   
-	return Content(jsonResult, "application/json");  
+     return Content(jsonResult, "application/json");  
 }
 ```
 > *This repository also contains a sample ASP .NET 5 MVC Project. (mongodb required)*
